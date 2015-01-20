@@ -32,4 +32,10 @@ Don't forget to run `bower install` before any new installation.
     $ bower install Polymer/paper-input
     $ bower install Polymer/paper-fab
 
+## Import those documents in your index.html page
+
+    <link rel="import" href="bower_components/core-scaffold/core-scaffold.html">
+    <link rel="import" href="bower_components/core-item/core-item.html">
+    <link rel="import" href="bower_components/paper-input/paper-input.html">
+    <link rel="import" href="bower_components/paper-fab/paper-fab.html">
 
