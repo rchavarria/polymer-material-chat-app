@@ -1,0 +1,25 @@
+{
+  "name": "polymer-material-chat-app",
+  "version": "1.0.0",
+  "description": "A chat application made with Polymer and Material Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchavarria/polymer-material-chat-app.git"
+  },
+  "keywords": [
+    "polymer",
+    "material",
+    "design",
+    "cordova",
+    "javascript"
+  ],
+  "author": "rchavarria",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/rchavarria/polymer-material-chat-app/issues"
+  }
+}
