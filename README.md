@@ -9,6 +9,8 @@ It's been inspired in this tutorial : http://www.pubnub.com/blog/creating-a-poly
 - Install node
 - Install bower
 
+Don't forget to run `bower install` before any new installation.
+
 # Steps
 
 ## Init node app
