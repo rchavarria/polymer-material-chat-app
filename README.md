@@ -15,4 +15,8 @@ It's been inspired in this tutorial : http://www.pubnub.com/blog/creating-a-poly
 
     npm init
 
+## Install Polymer
+
+    npm install --save Polymer/polymer
+
 
