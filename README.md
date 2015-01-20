@@ -21,4 +21,15 @@ Don't forget to run `bower install` before any new installation.
 
     npm install --save Polymer/polymer
 
+## Import polymer webcomponents
+
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+
+## Import some core and paper elements
+
+    $ bower install Polymer/core-scaffold
+    $ bower install Polymer/core-item
+    $ bower install Polymer/paper-input
+    $ bower install Polymer/paper-fab
+
 

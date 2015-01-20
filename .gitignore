@@ -30,6 +30,3 @@ node_modules
 # Vim swap files
 *.swp
 
-# Bower components
-bower_components
-
