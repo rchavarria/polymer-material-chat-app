@@ -39,3 +39,4 @@ Don't forget to run `bower install` before any new installation.
     <link rel="import" href="bower_components/paper-input/paper-input.html">
     <link rel="import" href="bower_components/paper-fab/paper-fab.html">
 
+## CONTINUE WITH STEP 1.3
