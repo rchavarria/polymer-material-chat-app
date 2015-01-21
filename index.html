@@ -9,7 +9,7 @@
         <link rel="import" href="bower_components/paper-fab/paper-fab.html">
     </head>
     <body fullbleed unresolved>
-        <core-scaffold>
+        <template is="auto-binding"><core-scaffold>
             <!-- Drawer panel -->
             <core-header-panel navigation flex>
                 <core-toolbar class="tall">
@@ -31,6 +31,6 @@
                     <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
                 </div>
             </div>
-        </core-scaffold>
+        </core-scaffold></template>
     </body>
 </html>

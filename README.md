@@ -65,6 +65,36 @@ to send that message.
 Notice the use of double brackets `{{...}}` to reference Polymer data binding and
 `on-*` attributes to bind to event handlers.
 
+## Data binding
+
+To activate polymer data binding, just use the tab `<template>`, surrounding the whole
+app with this tag we activate it for this app.
+
+Then, we can access to the `{{input}}` variable with this simple code:
+
+``` javascript
+var template = document.querySelector('template[is=auto-binding]');
+alert(template.input);
+```
+
+Repeated elements can be shown this way. In HTML, use the `repeat` attribute of 
+`template`
+
+``` html
+<template repeat="{{item in items}}">
+    <core-item icon="{{item.icon}}" label="{{item.title}}"></core-item>
+</template>
+```
+
+In JavaScript, define the `items` variable in the template:
+
+``` javascript
+template.items = [
+    { icon: 'cloud', title: 'My cloud' },
+    { icon: 'polymer', title: 'Polymer' },
+    { icon: 'favourite', title: 'Love' }
+];
+```
 
 
 
