@@ -54,4 +54,32 @@ child elements take as much space as they can.
 
 ## Using UI elements
 
+Inside the *main content* div we can use a textbox, to write a message, and a button
+to send that message.
+
+    <div class="send-message" layout horizontal>
+        <paper-input flex label="Type message..." id="input" value="{{input}}"></paper-input>
+        <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
+    </div>
+
+Notice the use of double brackets `{{...}}` to reference Polymer data binding and
+`on-*` attributes to bind to event handlers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

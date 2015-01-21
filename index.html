@@ -21,11 +21,16 @@
             <div tool layout horizontal flex>
                 <span flex>Kitteh Anonymous</span>
                 <core-icon icon="account-circle"></core-icon>
-                <span><!-- number of people online --></span>
+                <span>-1</span>
             </div>
 
             <!-- Main content -->
-            <div flex>...</div>
+            <div flex>
+                <div class="send-message" layout horizontal>
+                    <paper-input flex label="Type message..." id="input" value="{{input}}"></paper-input>
+                    <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
+                </div>
+            </div>
         </core-scaffold>
     </body>
 </html>
