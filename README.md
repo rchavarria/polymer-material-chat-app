@@ -39,4 +39,19 @@ Don't forget to run `bower install` before any new installation.
     <link rel="import" href="bower_components/paper-input/paper-input.html">
     <link rel="import" href="bower_components/paper-fab/paper-fab.html">
 
-## CONTINUE WITH STEP 1.3
+## Building the basic UI structure
+
+We will use `<core-scaffold>` component to scaffold our structure. It comes with
+several subcomponents. Take a look at the content of that tag to see it.
+
+`<body fullbleed unresolved>`: `fullbleed` makes the body to fill the viewport.
+`unresolved` is used to avoid to display *f*lash *o*f *u*nstyled *c*ontent (FOUC).
+
+Some elements contain `flex` attribute. They expose CSS Flexbox as attributes,
+and the child-element under `layout horizontal | vertical` with `flex` attribute takes
+up the available space either horizontally or vertically. That means, those
+child elements take as much space as they can.
+
+## Using UI elements
+
+
