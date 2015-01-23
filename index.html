@@ -7,6 +7,9 @@
         <link rel="import" href="bower_components/core-item/core-item.html">
         <link rel="import" href="bower_components/paper-input/paper-input.html">
         <link rel="import" href="bower_components/paper-fab/paper-fab.html">
+
+        <!-- importing the custom element -->
+        <link rel="import" href="x-chat-list.html">
     </head>
     <body fullbleed unresolved>
         <template is="auto-binding"><core-scaffold>
@@ -26,6 +29,14 @@
 
             <!-- Main content -->
             <div flex>
+                <div flex class="chat-list">
+                    <template repeat="{{message in messages}}">
+                        <x-chat-list color="{{message.color}}"
+                                    avatar="{{message.avatar}}"
+                                    username="{{message.uuid}}"
+                                    text="{{message.text}}"></x-chat-list>
+                    </template>
+                </div>
                 <div class="send-message" layout horizontal>
                     <paper-input flex label="Type message..." id="input" value="{{input}}"></paper-input>
                     <paper-fab icon="send" id="sendButton" on-tap="{{sendMyMessage}}"></paper-fab>
